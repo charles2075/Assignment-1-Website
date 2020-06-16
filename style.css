@@ -2,18 +2,22 @@
 
 * { box-sizing: border-box; }
 
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 body {
   text-align: center;
   font-family: Lato;
-  background-image: url("bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
 }
 
 header{
-  font-size: 150%;
+  font-size: 35px;
 color: #fff;
 text-shadow: #7a7a7a 4px 3px 0;
 }
@@ -53,16 +57,42 @@ nav > ul > li > a{
   text-decoration: none;
 }
 article{
-  text-align: left;
-  padding: 10px;
+  padding: 22px;
   border-radius: 5px;
   position: center;
   background-color: white;
   width: 80%;
-  margin: 0 auto;
   display: inline-block;
-  vertical-align: top;
+}
+div{
+  text-align: left;
+}
+p{
+  font-size: 22px;
+  line-height: 25px;
+}
 
-
+img{
+  display: inline-block;
+  width: 20%;
+  float: right;
+  margin-left: 10px;
+  margin-bottom:10px;
+}
+footer{
+  color: white;
+}
+.job{
+  display: inline-block;
+  width: 20%;
+  float: right;
+  margin-left: 10px;
+  margin-bottom:10px;
+}
+.test{
+  display:inline-block;
+  width: 35%;
+  float:right;
 
 }
+
